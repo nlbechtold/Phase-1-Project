@@ -33,15 +33,15 @@ function displayPose(pose) {
     benefits.textContent = pose.pose_benefits
 
     fullDisplay.append(name, image, benefits)
-console.log(image)
 
-    const textHowtoSel = document.querySelector("#hover-text")
-    const textHowTo = document.createElement("p")
-   image.addEventListener("mouseover", () => {
+
+    const textHowtoSel = document.querySelector(".container")
+    const textHowTo = document.createElement("div")
+    image.addEventListener("mouseover", () => {
         console.log(pose.pose_description)   
         textHowTo.textContent = pose.pose_description
         textHowtoSel.append(textHowTo)
-        console.log(pose.pose_description)        
+             
 
     }
 )

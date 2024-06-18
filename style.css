@@ -44,18 +44,24 @@ h3 {
     font-size: 40px;
   }
   #hover-text {
-    display: none;
-    top:0;
-    bottom: 0;
-    padding: 5px;
-    font-size: medium;
-    color: white;
-    border-radius: 3px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+  p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 
-  }
-/* 
-  }
   .container {
     position: relative;
     display: inline-block;
-  } */
+  }
+
+  #title-text {
+   
+    
+  }
+  #tweleve-options {
+  
+ 
+  }
