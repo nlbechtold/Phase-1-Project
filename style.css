@@ -1,67 +1,82 @@
 body {
-    background: lightblue;
-    text-align: center;
-  }
-  
-  #pose-display {
-    display: flex;
-    justify-content: center;
-    overflow: auto;
-    width: 100%;
-  }
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(4);
-    grid-template-rows: repeat(12);
-    grid-gap: 1.5em;
-    image-orientation: center;
-    align-content: center;
-    size-adjust: auto;
+  height: 100%; 
+            margin: 0; 
+
+
 }
-  
-  #pose-display-image {
-    width: auto;
-    margin: 0.3em;
-    border-radius: 0.5em;
-    align-items: center;
-    image-orientation: center ;
-    text-wrap: pretty;
-   
-  }
+
+.not-working{
+  text-align: center; 
+}
+/* .bg-image{
+  position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    background-image: url("https://t4.ftcdn.net/jpg/03/64/93/95/360_F_364939504_0EuxMxwvHSybY0uBQNrh2v2UvuijBpL2.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    filter: blur(10px); 
+    z-index: -1;  
+
+}  */
+#tweleve-options{
+  background:lightgreen;
+}
+
+
+#pose-display {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  width: 100%;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-template-rows: repeat(12);
+  grid-gap: 1.5em;
+  image-orientation: center;
+  align-content: center;
+  size-adjust: auto;
+}
+
+#pose-display-image {
+  width: auto;
+  margin: 0.3em;
+  border-radius: 0.5em;
+  align-items: center;
+  image-orientation: center ;
+  text-wrap: pretty;
+ 
+}
 #pose-display-text{
-    padding-left: 200px;
-    padding-right: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 h3 {
-
-    padding-right: 700px;
-    padding-left: 700px;
-    font-size: medium;
-  }
-
-  h2 {
-    padding-top: 200px;
-    font-size: 40px;
-  }
-  #hover-text {
-    padding-left: 200px;
-    padding-right: 200px;
+  padding-right: 700px;
+  padding-left: 700px;
+  font-size: medium;
 }
-  p {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
 
-  .container {
-    position: relative;
-    display: inline-block;
-  }
+h2 {
+  color: lightgreen;
+  padding-top: 200px;
+  font-size: 40px;
+}
+#hover-text {
+  display: none;
+  top:0;
+  bottom: 0;
+  padding: 5px;
+  font-size: medium;
+  color: white;
+  border-radius: 3px;
 
-  #title-text {
-   
-    
-  }
-  #tweleve-options {
-  
- 
-  }
+
+
+}
+.container {
+  position: relative;
+  display: inline-block;
+}

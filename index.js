@@ -4,7 +4,6 @@ fetch("https://yoga-api-nzy4.onrender.com/v1/categories")
 function displayEach(input){
  categories.forEach((category)=>{
   // console.log(categorie.poses)
-
 //gets all the categories of the poses like all the core ones 
 console.log(category)
     console.log(input)
@@ -13,7 +12,6 @@ console.log(category)
       // fullDisplay.innerHTML = ""
     category.poses.forEach((categoriesPoses)=>{
     if (categoriesPoses.category_name === input ){
-      console.log("UrMom")
         console.log(fullDisplay)
         const name = document.createElement("h2")
         const image = document.createElement("img")
@@ -55,5 +53,12 @@ console.log(category)
     displayEach(e.target.value)
   })
 
-
   })
+
+
+  const goGo = document.querySelector("#emptyStudio")
+  goGo.addEventListener("click", ()=>{
+    alert("Take a breath of fresh air and try yoga outside🎶")
+  })
+
+ 
