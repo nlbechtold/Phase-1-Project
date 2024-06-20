@@ -1,6 +1,8 @@
 body {
   height: 100%; 
             margin: 0; 
+            background: lightblue;
+    text-align: center;
 
 
 }
@@ -57,6 +59,12 @@ h3 {
   padding-right: 700px;
   padding-left: 700px;
   font-size: medium;
+}
+
+h1{
+  font-family: Courier, monospace;
+  color: gray;
+  font-size: 65px;
 }
 
 h2 {

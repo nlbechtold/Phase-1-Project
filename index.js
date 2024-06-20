@@ -61,4 +61,3 @@ console.log(category)
     alert("Take a breath of fresh air and try yoga outside🎶")
   })
 
- 
