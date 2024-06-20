@@ -10,55 +10,10 @@ body {
 .not-working{
   text-align: center; 
 }
-/* .bg-image{
-  position: absolute; 
-    height: 100%; 
-    width: 100%; 
-    background-image: url("https://t4.ftcdn.net/jpg/03/64/93/95/360_F_364939504_0EuxMxwvHSybY0uBQNrh2v2UvuijBpL2.jpg"); 
-    background-size: cover; 
-    background-position: center; 
-    filter: blur(10px); 
-    z-index: -1;  
 
-}  */
 #tweleve-options{
-  background:lightgreen;
-}
-
-
-#pose-display {
-  display: flex;
-  justify-content: center;
-  overflow: auto;
-  width: 100%;
-}
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(4);
-  grid-template-rows: repeat(12);
-  grid-gap: 1.5em;
-  image-orientation: center;
-  align-content: center;
-  size-adjust: auto;
-}
-
-#pose-display-image {
-  width: auto;
-  margin: 0.3em;
-  border-radius: 0.5em;
-  align-items: center;
-  image-orientation: center ;
-  text-wrap: pretty;
- 
-}
-#pose-display-text{
-  padding-left: 200px;
-  padding-right: 200px;
-}
-h3 {
-  padding-right: 700px;
-  padding-left: 700px;
-  font-size: medium;
+  background:auto;
+  text-size-adjust: 18px;
 }
 
 h1{
@@ -67,8 +22,62 @@ h1{
   font-size: 65px;
 }
 
+#pose-display {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  width: 100%;
+}
+/* attempted to style images as a grid, but uncsuccessful 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-template-rows: repeat(12);
+  grid-gap: 1.5em;
+  image-orientation: center;
+  align-content: center;
+  size-adjust: auto;
+} */ 
+
+
+
+#pose-display-image {
+  width: auto;
+  margin: 0.3em;
+  border-radius: 0.5em;
+  align-items: center;
+  image-orientation: center ;
+  text-wrap: pretty;
+}
+ 
+.hidden {
+  display: none;
+}  
+
+#pose-display-text{
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+h3 {
+  font-family: Courier, monospace;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+p {
+  padding-left: 500px;
+  padding-right: 500px;
+  font-family: Courier, monospace;
+
+h1{
+  font-family: Courier, monospace;
+  color: gray;
+  font-size: 65px;
+}
+
 h2 {
-  color: lightgreen;
+  font-family: Courier, monospace;
+  color: rgb(64, 68, 64);
   padding-top: 200px;
   font-size: 40px;
 }
@@ -81,10 +90,20 @@ h2 {
   color: white;
   border-radius: 3px;
 
-
-
 }
 .container {
   position: relative;
   display: inline-block;
+}
+#affirmation-display {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  padding-bottom: 100px;
+  width: 100%;
+
+}
+body {
+  background: lightblue;
+  text-align: center;
 }
